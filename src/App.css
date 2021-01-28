@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  /* height: 100vh; */
+  
+}
+
+.book {
+  text-align: center;
+}
+
+.book button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(89, 170, 166);
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color:  rgb(33, 180, 173) ;
+}
